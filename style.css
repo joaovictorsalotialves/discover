@@ -82,7 +82,8 @@ ul li a {
   transition: background 0.2s;
 }
 
-ul li a:hover {
+ul li a:hover,
+ul li a:focus {
   background: var(--surface-color-hover);
   border: 1px solid var(--text-color);
 }
@@ -108,7 +109,8 @@ ul li a:hover {
   transition: background 0.2s;
 }
 
-#social-links a:hover {
+#social-links a:hover,
+#social-links a:focus {
   background: var(--highlight-color);
 }
 
