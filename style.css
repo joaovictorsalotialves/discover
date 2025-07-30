@@ -36,6 +36,10 @@ body * {
 /* links */
 ul {
   list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 ul li a {
@@ -44,4 +48,11 @@ ul li a {
   align-items: center;
 
   padding: 16px 24px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
