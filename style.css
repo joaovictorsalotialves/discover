@@ -55,6 +55,10 @@ body * {
 }
 
 /* switch */
+#switch {
+  position: relative;
+}
+
 #switch button {
   width: 32px;
   height: 32px;
@@ -62,6 +66,9 @@ body * {
   border: none;
 
   background: white var(--switch-bg-url) no-repeat center;
+
+  position: absolute;
+  z-index: 1;
 }
 
 #switch span {
